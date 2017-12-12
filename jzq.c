@@ -72,7 +72,11 @@ void input1(void)
 {
     int row, col;
  do{
+<<<<<<< HEAD
   scanf("%d%d", &col,&row);
+=======
+  scanf("%d%d", &row,&col);
+>>>>>>> dev
 
   
         if(enterChsman1(row - 1, col - 1) == 1){
