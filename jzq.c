@@ -88,8 +88,8 @@ void input2(void)
 {
     int row, col;
  do{
-  scanf("%d", &row);
-  scanf("%d", &col);
+  scanf("%d%d", &col,&row);
+
   
         if(enterChsman2(row - 1, col - 1) == 1){
    dsply();
